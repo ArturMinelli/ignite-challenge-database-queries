@@ -33,9 +33,6 @@ export class GamesRepository implements IGamesRepository {
    .of(id)
    .loadMany();
 
-    console.log('users niaosdioasmdio', '\n\n\n\n\n\n\n\n\n\n\n\n\n')
-    console.log(users)
-
     return users
   }
 }
